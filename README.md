@@ -1,10 +1,10 @@
-Executive Summary
+**Executive Summary**
 
 This project analyzes a bank marketing campaign dataset to evaluate marketing funnel performance and identify conversion bottlenecks. Using Power BI, key metrics such as conversion rate, campaign effectiveness, and channel performance were calculated.
 
 The analysis highlights major drop-off stages in the marketing funnel and provides actionable business recommendations to improve subscription rates and optimize campaign strategy.
 
-Business Problem
+**Business Problem**
 
 The bank conducted direct marketing campaigns to promote term deposit subscriptions. However, the conversion rate remained low despite multiple customer contacts.
 
@@ -18,7 +18,7 @@ Evaluate campaign intensity impact
 
 Provide data-driven recommendations to improve conversions
 
- Dataset Description
+** Dataset Description**
 
 Dataset Used: bank-additional-full.xlsx
 
@@ -55,8 +55,7 @@ Since this dataset represents campaign performance, the funnel was defined as:
 
 This structure allows analysis of conversion drop-offs across stages.
 
- Key Performance Indicators (KPIs)
-
+** Key Performance Indicators (KPIs)**
 The following DAX measures were created in Power BI:
 
 Total Customers
@@ -81,7 +80,7 @@ Avg Campaign Calls =
 AVERAGE('Bank Data'[campaign])
 Dashboard Overview
 
-The Power BI dashboard includes:
+**The Power BI dashboard includes:**
 
 KPI Cards (Total Customers, Total Subscribed, Conversion Rate, Avg Campaign Calls)
 
@@ -95,7 +94,7 @@ Campaign Intensity Analysis
 
 Customer Segment Analysis (Job, Education, Age)
 
- Key Insights
+ **Key Insights**
 
 Overall conversion rate is relatively low compared to total contacts.
 
@@ -109,7 +108,7 @@ Certain months demonstrate stronger subscription trends.
 
 Specific job and education segments have higher conversion performance.
 
- Business Recommendations
+** Business Recommendations**
 
 Focus marketing efforts on cellular contact channels.
 
@@ -123,7 +122,7 @@ Personalize offers for high-converting customer segments.
 
 Implement A/B testing to improve messaging effectiveness.
 
-Tools Used
+**Tools Used**
 
 Power BI Desktop
 
@@ -133,7 +132,7 @@ Power Query (Data Cleaning)
 
 Microsoft Excel
 
- Future Improvements
+ **Future Improvements**
 
 Apply predictive modeling to estimate subscription probability.
 
@@ -143,9 +142,9 @@ Develop drill-through reports for deeper customer segmentation.
 
 Implement machine learning classification models.
 
- Conclusion
+** Conclusion**
 
 This project demonstrates how marketing campaign data can be transformed into actionable insights using Power BI. By identifying funnel drop-offs and analyzing channel performance, businesses can optimize their marketing strategies and improve customer conversion rates effectively.
 
 
-Tell me what you need 😊📊
+
